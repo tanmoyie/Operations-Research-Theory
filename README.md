@@ -1,13 +1,8 @@
 # Operations-Research
-
-
-
-Operations Research
 Lecture Notes
 
-
 Prepared by
-Tanmoy Das
+## Tanmoy Das
 Industrial Engineer & Jr. Data Scientist
 
 Table of Contents
@@ -16,9 +11,9 @@ Table of Contents
 ### Graphical Solution	
 ## Simplex, Dual, Sensitivity	
 ## Transportation	
+## Machine Learning
 ## Network Optimization	
 ### Min Cost	
 ### Max Flow	
 ### Minimum Spanning Tree	
-## Machine Learning
 ## Integer Programming
