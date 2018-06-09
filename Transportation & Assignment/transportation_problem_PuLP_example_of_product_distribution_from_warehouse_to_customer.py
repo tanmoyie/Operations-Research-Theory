@@ -48,7 +48,7 @@ Routes = [(w,b) for w in Warehouses for b in CustomerPoint]
 # A dictionary called 'Vars' is created to contain the referenced variables(the routes)
 vars = LpVariable.dicts("Route",(Warehouses,CustomerPoint),0,None,LpInteger)
 
-# The objective function is added to 'prob' first
+
 prob += lpSum([vars[w][b]*costs[w][b] for (w,b) in Routes]), "Sum_of_Transporting_Costs"
 
 # The supply maximum constraints are added to prob for each supply node (warehouse)

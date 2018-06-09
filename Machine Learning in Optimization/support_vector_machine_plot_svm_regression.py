@@ -31,6 +31,7 @@ y_poly = svr_poly.fit(X, y).predict(X)
 # #############################################################################
 # Look at the results
 lw = 2
+plt.show()
 plt.scatter(X, y, color='black', label='data')
 plt.plot(X, y_rbf, color='red', lw=3, label='RBF model')
 plt.plot(X, y_lin, color='c', lw=lw, linestyle='-.', label='Linear model')
